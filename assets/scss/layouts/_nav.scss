@@ -1,0 +1,172 @@
+nav {
+    @include font-family('lato', 'light');
+    &.navbar-primary {
+        @extend .navbar;
+        @extend .navbar-expand-md;
+        @extend .navbar-light;
+        @extend .bg-light;
+        z-index: $zindex-dropdown;
+        background-color: lighten($orange, 5%) !important;
+        padding: 0 1rem;
+        .navbar-nav {
+            li {
+                @extend .nav-item;
+                a {
+                    @extend .nav-link;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: $gray-700;
+                        background-color: lighten($orange, 10%);
+                    }
+                }
+                &.active {
+                    a {
+                        color: $gray-800;
+                        background-color: lighten($orange, 15%);
+                    }
+                }
+            }
+        }
+        &.fixed-top {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+            background-color: $red !important;
+            .navbar-nav {
+                li {
+                    a {
+                        color: lighten($red, 35%);
+                        &:hover {
+                            color: lighten($red, 75%);
+                        }
+                    }
+                    &.active {
+                        a {
+                            color: $white !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.social-nav {
+        a {
+            @extend .nav-link;
+            background-color: transparent;
+            border: 1px solid $red;
+            color: inherit;
+            height: 36px;
+            width: 36px;
+            padding: 0;
+            border-radius: 36px;
+            text-align: center;
+            line-height: 36px;
+            i {
+                color: $red;
+            }
+            &:hover {
+                background-color: $red;
+                i {
+                    color: $white;
+                }
+            }
+            &.fb {
+                &:hover {
+                    background-color: $blue-fb;
+                    border: 1px solid $blue-fb;
+                }
+            }
+            &.tw {
+                &:hover {
+                    background-color: $sky-blue-tw;
+                    border: 1px solid $sky-blue-tw;
+                }
+            }
+            &.li {
+                &:hover {
+                    background-color: $blue-li;
+                    border: 1px solid $blue-li;
+                }
+            }
+            &.yt {
+                &:hover {
+                    background-color: $red-yt;
+                    border: 1px solid $red-yt;
+                }
+            }
+        }
+    }
+    &.floating-nav {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translate(-15px, -50%);
+        a {
+            margin-bottom: 0.5rem;
+        }
+    }
+    &.sharing-nav {
+        @extend .nav;
+        a {
+            @include font-family('lato', 'light');
+            text-transform: uppercase;
+            width: auto !important;
+            margin-right: 0.5rem;
+            padding: 0 1rem;
+            font-size: 0.85rem;
+            border-radius: 0;
+            background-color: $gray-600;
+            border: 1px solid $gray-600;
+            color: $white;
+            i {
+                color: $white;
+            }
+            span {
+                padding-left: 0.5rem;
+            }
+            &:hover {
+                background-color: darken($gray-600, 10%);
+                border: 1px solid darken($gray-600, 10%);
+                span {}
+            }
+            &.fb {
+                background-color: $blue-fb;
+                border: 1px solid $blue-fb;
+                &:hover {
+                    background-color: darken($blue-fb, 10%);
+                    border: 1px solid darken($blue-fb, 10%);
+                }
+            }
+            &.tw {
+                background-color: $sky-blue-tw;
+                border: 1px solid $sky-blue-tw;
+                &:hover {
+                    background-color: darken($sky-blue-tw, 10%);
+                    border: 1px solid darken($sky-blue-tw, 10%);
+                }
+            }
+        }
+    }
+    &.paginate {
+        display: block;
+    }
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    a {
+        font-size: 0.75rem;
+        color: $gray-700 !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        &:hover {
+            color: $red !important;
+        }
+        &.active {
+            color: $white !important;
+            background-color: $red;
+        }
+    }
+}
