@@ -52,6 +52,8 @@ header {
                     a {
                         @extend .nav-link;
                         text-transform: uppercase;
+                        @include font-family('lato', 'bold');
+                        font-size: 80%;
                     }
                 }
             }

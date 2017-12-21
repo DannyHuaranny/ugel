@@ -518,7 +518,7 @@ pre {
   padding-left: 15px;
   width: 100%; }
 
-.row, .section.newsfeed .events .wrapper, .section.services .wrap .content, .slider-main .owl-item .item-container, .wrap .content {
+.row, .section.newsfeed .sidebar .wrapper, .section.services .wrap .content, .slider-main .owl-item .item-container, .wrap .content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -538,7 +538,7 @@ pre {
     padding-left: 0; }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .slider-main .owl-item .item-container .slider-content, .slider-main .owl-item .item-container .slider-image,
-.col-auto, .masshead nav#breadcrumb, .col-sm-1, .col-sm-2, .col-sm-3, header.header-primary .content .logo, .section.newsfeed .events, .page .fullpage article, .footer .footer-post .nav-links, aside, .col-sm-4, header.header-primary .content .searchbox, .footer .footer-pre .translate, .footer .footer-copy .social-nav, .col-sm-5, header.header-primary .content .contact, .col-sm-6, .footer .footer-post .nav-links.nav-contact, .col-sm-7, .col-sm-8, .footer .footer-pre .segdi, .footer .footer-copy .copy, main, .col-sm-9, .section.newsfeed .news, .col-sm-10, .col-sm-11, .col-sm-12, .masshead .page-title, .section.newsfeed .news .wrapper .page-header, .section.newsfeed .events .wrapper .page-header, .section.newsfeed .events .wrapper .widget, .section.services .wrap .content .page-header, .section.services .wrap .content .service, .page .fullpage, .page .fullpage article:first-child, main .fullpage, .col-sm,
+.col-auto, .masshead nav#breadcrumb, .col-sm-1, .col-sm-2, .col-sm-3, header.header-primary .content .logo, .page .fullpage article, .footer .footer-post .nav-links, aside, .col-sm-4, header.header-primary .content .searchbox, .section.newsfeed .sidebar, .footer .footer-pre .translate, .footer .footer-copy .social-nav, .col-sm-5, header.header-primary .content .contact, .col-sm-6, .footer .footer-post .nav-links.nav-contact, .col-sm-7, .col-sm-8, .section.newsfeed .news, .footer .footer-pre .segdi, .footer .footer-copy .copy, main, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .masshead .page-title, .section.newsfeed .news .wrapper .page-header, .section.newsfeed .sidebar .wrapper .page-header, .section.newsfeed .sidebar .wrapper .widget, .section.newsfeed .sidebar .wrapper.event .page-header, .section.services .wrap .content .page-header, .page .fullpage, .page .fullpage article:first-child, main .fullpage, article, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
@@ -752,13 +752,13 @@ pre {
         -ms-flex: 0 0 16.66667%;
             flex: 0 0 16.66667%;
     max-width: 16.66667%; }
-  .col-sm-3, header.header-primary .content .logo, .section.newsfeed .events, .page .fullpage article, .footer .footer-post .nav-links, aside {
+  .col-sm-3, header.header-primary .content .logo, .page .fullpage article, .footer .footer-post .nav-links, aside {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 25%;
         -ms-flex: 0 0 25%;
             flex: 0 0 25%;
     max-width: 25%; }
-  .col-sm-4, header.header-primary .content .searchbox, .footer .footer-pre .translate, .footer .footer-copy .social-nav {
+  .col-sm-4, header.header-primary .content .searchbox, .section.newsfeed .sidebar, .footer .footer-pre .translate, .footer .footer-copy .social-nav {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.33333%;
         -ms-flex: 0 0 33.33333%;
@@ -782,13 +782,13 @@ pre {
         -ms-flex: 0 0 58.33333%;
             flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  .col-sm-8, .footer .footer-pre .segdi, .footer .footer-copy .copy, main {
+  .col-sm-8, .section.newsfeed .news, .footer .footer-pre .segdi, .footer .footer-copy .copy, main {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 66.66667%;
         -ms-flex: 0 0 66.66667%;
             flex: 0 0 66.66667%;
     max-width: 66.66667%; }
-  .col-sm-9, .section.newsfeed .news {
+  .col-sm-9 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 75%;
         -ms-flex: 0 0 75%;
@@ -806,7 +806,7 @@ pre {
         -ms-flex: 0 0 91.66667%;
             flex: 0 0 91.66667%;
     max-width: 91.66667%; }
-  .col-sm-12, .masshead .page-title, .section.newsfeed .news .wrapper .page-header, .section.newsfeed .events .wrapper .page-header, .section.newsfeed .events .wrapper .widget, .section.services .wrap .content .page-header, .section.services .wrap .content .service, .page .fullpage, .page .fullpage article:first-child, main .fullpage {
+  .col-sm-12, .masshead .page-title, .section.newsfeed .news .wrapper .page-header, .section.newsfeed .sidebar .wrapper .page-header, .section.newsfeed .sidebar .wrapper .widget, .section.newsfeed .sidebar .wrapper.event .page-header, .section.services .wrap .content .page-header, .page .fullpage, .page .fullpage article:first-child, main .fullpage, article {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 100%;
         -ms-flex: 0 0 100%;
@@ -1584,18 +1584,15 @@ select.form-control:focus::-ms-value {
   border-width: 1px 0; }
   .form-control-plaintext.form-control-sm, .input-group-sm > .form-control-plaintext.form-control,
   .input-group-sm > .form-control-plaintext.input-group-addon,
-  .input-group-sm > .input-group-btn > .form-control-plaintext.btn, .section.services .wrap .content .service ul li
-  .input-group-sm > .input-group-btn > a.form-control-plaintext, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control,
+  .input-group-sm > .input-group-btn > .form-control-plaintext.btn, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control,
   .input-group-lg > .form-control-plaintext.input-group-addon,
-  .input-group-lg > .input-group-btn > .form-control-plaintext.btn, .section.services .wrap .content .service ul li
-  .input-group-lg > .input-group-btn > a.form-control-plaintext {
+  .input-group-lg > .input-group-btn > .form-control-plaintext.btn {
     padding-right: 0;
     padding-left: 0; }
 
 .form-control-sm, .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
-.input-group-sm > .input-group-btn > .btn, .section.services .wrap .content .service ul li
-.input-group-sm > .input-group-btn > a {
+.input-group-sm > .input-group-btn > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -1610,8 +1607,7 @@ select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.for
 
 .form-control-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
-.input-group-lg > .input-group-btn > .btn, .section.services .wrap .content .service ul li
-.input-group-lg > .input-group-btn > a {
+.input-group-lg > .input-group-btn > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -1870,7 +1866,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     .form-inline .has-feedback .form-control-feedback {
       top: 0; } }
 
-.btn, .section.services .wrap .content .service ul li a {
+.btn {
   display: inline-block;
   font-weight: normal;
   text-align: center;
@@ -1891,21 +1887,19 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   -o-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
-  .btn:focus, .section.services .wrap .content .service ul li a:focus, .btn:hover, .section.services .wrap .content .service ul li a:hover {
+  .btn:focus, .btn:hover {
     text-decoration: none; }
-  .btn:focus, .section.services .wrap .content .service ul li a:focus, .btn.focus, .section.services .wrap .content .service ul li a.focus {
+  .btn:focus, .btn.focus {
     outline: 0;
     -webkit-box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
             box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); }
-  .btn.disabled, .section.services .wrap .content .service ul li a.disabled, .btn:disabled, .section.services .wrap .content .service ul li a:disabled {
+  .btn.disabled, .btn:disabled {
     opacity: .65; }
-  .btn:active, .section.services .wrap .content .service ul li a:active, .btn.active, .section.services .wrap .content .service ul li a.active {
+  .btn:active, .btn.active {
     background-image: none; }
 
-a.btn.disabled, .section.services .wrap .content .service ul li a.disabled,
-fieldset[disabled] a.btn,
-fieldset[disabled] .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li
-fieldset[disabled] a {
+a.btn.disabled,
+fieldset[disabled] a.btn {
   pointer-events: none; }
 
 .btn-primary {
@@ -1922,7 +1916,7 @@ fieldset[disabled] a {
   .btn-primary.disabled, .btn-primary:disabled {
     background-color: #007bff;
     border-color: #007bff; }
-  .btn-primary:active, .btn-primary.active, .section.services .wrap .content .service ul li a.btn-primary.active,
+  .btn-primary:active, .btn-primary.active,
   .show > .btn-primary.dropdown-toggle {
     background-color: #0069d9;
     background-image: none;
@@ -1942,7 +1936,7 @@ fieldset[disabled] a {
   .btn-secondary.disabled, .btn-secondary:disabled {
     background-color: #868e96;
     border-color: #868e96; }
-  .btn-secondary:active, .btn-secondary.active, .section.services .wrap .content .service ul li a.btn-secondary.active,
+  .btn-secondary:active, .btn-secondary.active,
   .show > .btn-secondary.dropdown-toggle {
     background-color: #727b84;
     background-image: none;
@@ -1962,7 +1956,7 @@ fieldset[disabled] a {
   .btn-success.disabled, .btn-success:disabled {
     background-color: #28a745;
     border-color: #28a745; }
-  .btn-success:active, .btn-success.active, .section.services .wrap .content .service ul li a.btn-success.active,
+  .btn-success:active, .btn-success.active,
   .show > .btn-success.dropdown-toggle {
     background-color: #218838;
     background-image: none;
@@ -1982,7 +1976,7 @@ fieldset[disabled] a {
   .btn-info.disabled, .btn-info:disabled {
     background-color: #17a2b8;
     border-color: #17a2b8; }
-  .btn-info:active, .btn-info.active, .section.services .wrap .content .service ul li a.btn-info.active,
+  .btn-info:active, .btn-info.active,
   .show > .btn-info.dropdown-toggle {
     background-color: #138496;
     background-image: none;
@@ -2002,7 +1996,7 @@ fieldset[disabled] a {
   .btn-warning.disabled, .btn-warning:disabled {
     background-color: #ffc107;
     border-color: #ffc107; }
-  .btn-warning:active, .btn-warning.active, .section.services .wrap .content .service ul li a.btn-warning.active,
+  .btn-warning:active, .btn-warning.active,
   .show > .btn-warning.dropdown-toggle {
     background-color: #e0a800;
     background-image: none;
@@ -2022,7 +2016,7 @@ fieldset[disabled] a {
   .btn-danger.disabled, .btn-danger:disabled {
     background-color: #dc3545;
     border-color: #dc3545; }
-  .btn-danger:active, .btn-danger.active, .section.services .wrap .content .service ul li a.btn-danger.active,
+  .btn-danger:active, .btn-danger.active,
   .show > .btn-danger.dropdown-toggle {
     background-color: #c82333;
     background-image: none;
@@ -2042,7 +2036,7 @@ fieldset[disabled] a {
   .btn-light.disabled, .btn-light:disabled {
     background-color: #f8f9fa;
     border-color: #f8f9fa; }
-  .btn-light:active, .btn-light.active, .section.services .wrap .content .service ul li a.btn-light.active,
+  .btn-light:active, .btn-light.active,
   .show > .btn-light.dropdown-toggle {
     background-color: #e2e6ea;
     background-image: none;
@@ -2062,30 +2056,29 @@ fieldset[disabled] a {
   .btn-dark.disabled, .btn-dark:disabled {
     background-color: #343a40;
     border-color: #343a40; }
-  .btn-dark:active, .btn-dark.active, .section.services .wrap .content .service ul li a.btn-dark.active,
+  .btn-dark:active, .btn-dark.active,
   .show > .btn-dark.dropdown-toggle {
     background-color: #23272b;
     background-image: none;
     border-color: #1d2124; }
 
-.btn-outline-primary, .section.services .wrap .content .service ul li a {
+.btn-outline-primary {
   color: #007bff;
   background-color: transparent;
   background-image: none;
   border-color: #007bff; }
-  .btn-outline-primary:hover, .section.services .wrap .content .service ul li a:hover {
+  .btn-outline-primary:hover {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff; }
-  .btn-outline-primary:focus, .section.services .wrap .content .service ul li a:focus, .btn-outline-primary.focus, .section.services .wrap .content .service ul li a.focus {
+  .btn-outline-primary:focus, .btn-outline-primary.focus {
     -webkit-box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
             box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); }
-  .btn-outline-primary.disabled, .section.services .wrap .content .service ul li a.disabled, .btn-outline-primary:disabled, .section.services .wrap .content .service ul li a:disabled {
+  .btn-outline-primary.disabled, .btn-outline-primary:disabled {
     color: #007bff;
     background-color: transparent; }
-  .btn-outline-primary:active, .section.services .wrap .content .service ul li a:active, .btn-outline-primary.active, .section.services .wrap .content .service ul li a.active,
-  .show > .btn-outline-primary.dropdown-toggle, .section.services .wrap .content .service ul li
-  .show > a.dropdown-toggle {
+  .btn-outline-primary:active, .btn-outline-primary.active,
+  .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff; }
@@ -2105,7 +2098,7 @@ fieldset[disabled] a {
   .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
     color: #868e96;
     background-color: transparent; }
-  .btn-outline-secondary:active, .btn-outline-secondary.active, .section.services .wrap .content .service ul li a.btn-outline-secondary.active,
+  .btn-outline-secondary:active, .btn-outline-secondary.active,
   .show > .btn-outline-secondary.dropdown-toggle {
     color: #fff;
     background-color: #868e96;
@@ -2126,7 +2119,7 @@ fieldset[disabled] a {
   .btn-outline-success.disabled, .btn-outline-success:disabled {
     color: #28a745;
     background-color: transparent; }
-  .btn-outline-success:active, .btn-outline-success.active, .section.services .wrap .content .service ul li a.btn-outline-success.active,
+  .btn-outline-success:active, .btn-outline-success.active,
   .show > .btn-outline-success.dropdown-toggle {
     color: #fff;
     background-color: #28a745;
@@ -2147,7 +2140,7 @@ fieldset[disabled] a {
   .btn-outline-info.disabled, .btn-outline-info:disabled {
     color: #17a2b8;
     background-color: transparent; }
-  .btn-outline-info:active, .btn-outline-info.active, .section.services .wrap .content .service ul li a.btn-outline-info.active,
+  .btn-outline-info:active, .btn-outline-info.active,
   .show > .btn-outline-info.dropdown-toggle {
     color: #fff;
     background-color: #17a2b8;
@@ -2168,7 +2161,7 @@ fieldset[disabled] a {
   .btn-outline-warning.disabled, .btn-outline-warning:disabled {
     color: #ffc107;
     background-color: transparent; }
-  .btn-outline-warning:active, .btn-outline-warning.active, .section.services .wrap .content .service ul li a.btn-outline-warning.active,
+  .btn-outline-warning:active, .btn-outline-warning.active,
   .show > .btn-outline-warning.dropdown-toggle {
     color: #fff;
     background-color: #ffc107;
@@ -2189,7 +2182,7 @@ fieldset[disabled] a {
   .btn-outline-danger.disabled, .btn-outline-danger:disabled {
     color: #dc3545;
     background-color: transparent; }
-  .btn-outline-danger:active, .btn-outline-danger.active, .section.services .wrap .content .service ul li a.btn-outline-danger.active,
+  .btn-outline-danger:active, .btn-outline-danger.active,
   .show > .btn-outline-danger.dropdown-toggle {
     color: #fff;
     background-color: #dc3545;
@@ -2210,7 +2203,7 @@ fieldset[disabled] a {
   .btn-outline-light.disabled, .btn-outline-light:disabled {
     color: #f8f9fa;
     background-color: transparent; }
-  .btn-outline-light:active, .btn-outline-light.active, .section.services .wrap .content .service ul li a.btn-outline-light.active,
+  .btn-outline-light:active, .btn-outline-light.active,
   .show > .btn-outline-light.dropdown-toggle {
     color: #fff;
     background-color: #f8f9fa;
@@ -2231,7 +2224,7 @@ fieldset[disabled] a {
   .btn-outline-dark.disabled, .btn-outline-dark:disabled {
     color: #343a40;
     background-color: transparent; }
-  .btn-outline-dark:active, .btn-outline-dark.active, .section.services .wrap .content .service ul li a.btn-outline-dark.active,
+  .btn-outline-dark:active, .btn-outline-dark.active,
   .show > .btn-outline-dark.dropdown-toggle {
     color: #fff;
     background-color: #343a40;
@@ -2242,7 +2235,7 @@ fieldset[disabled] a {
   color: #007bff;
   -webkit-border-radius: 0;
           border-radius: 0; }
-  .btn-link, .btn-link:active, .btn-link.active, .section.services .wrap .content .service ul li a.btn-link.active, .btn-link:disabled {
+  .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled {
     background-color: transparent; }
   .btn-link, .btn-link:focus, .btn-link:active {
     border-color: transparent;
@@ -2259,14 +2252,14 @@ fieldset[disabled] a {
     .btn-link:disabled:focus, .btn-link:disabled:hover {
       text-decoration: none; }
 
-.btn-lg, .btn-group-lg > .btn, .section.services .wrap .content .service ul li .btn-group-lg > a {
+.btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   -webkit-border-radius: 0.3rem;
           border-radius: 0.3rem; }
 
-.btn-sm, .btn-group-sm > .btn, .section.services .wrap .content .service ul li a {
+.btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -2380,7 +2373,7 @@ tbody.collapse.show {
     color: #16181b;
     text-decoration: none;
     background-color: #f8f9fa; }
-  .dropdown-item.active, .section.services .wrap .content .service ul li a.dropdown-item.active, .dropdown-item:active {
+  .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
     background-color: #007bff; }
@@ -2410,48 +2403,29 @@ tbody.collapse.show {
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle; }
-  .btn-group > .btn, .section.services .wrap .content .service ul li .btn-group > a,
-  .btn-group-vertical > .btn, .section.services .wrap .content .service ul li
-  .btn-group-vertical > a {
+  .btn-group > .btn,
+  .btn-group-vertical > .btn {
     position: relative;
     -webkit-box-flex: 0;
     -webkit-flex: 0 1 auto;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
     margin-bottom: 0; }
-    .btn-group > .btn:hover, .section.services .wrap .content .service ul li .btn-group > a:hover,
-    .btn-group-vertical > .btn:hover, .section.services .wrap .content .service ul li
-    .btn-group-vertical > a:hover {
+    .btn-group > .btn:hover,
+    .btn-group-vertical > .btn:hover {
       z-index: 2; }
-    .btn-group > .btn:focus, .section.services .wrap .content .service ul li .btn-group > a:focus, .btn-group > .btn:active, .section.services .wrap .content .service ul li .btn-group > a:active, .btn-group > .btn.active, .section.services .wrap .content .service ul li .btn-group > a.active,
-    .btn-group-vertical > .btn:focus, .section.services .wrap .content .service ul li
-    .btn-group-vertical > a:focus,
-    .btn-group-vertical > .btn:active, .section.services .wrap .content .service ul li
-    .btn-group-vertical > a:active,
-    .btn-group-vertical > .btn.active, .section.services .wrap .content .service ul li
-    .btn-group-vertical > a.active {
+    .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,
+    .btn-group-vertical > .btn:focus,
+    .btn-group-vertical > .btn:active,
+    .btn-group-vertical > .btn.active {
       z-index: 2; }
-  .btn-group .btn + .btn, .btn-group .section.services .wrap .content .service ul li a + .btn, .section.services .wrap .content .service ul li .btn-group a + .btn, .btn-group .section.services .wrap .content .service ul li .btn + a, .section.services .wrap .content .service ul li .btn-group .btn + a, .btn-group .section.services .wrap .content .service ul li a + a, .section.services .wrap .content .service ul li .btn-group a + a,
+  .btn-group .btn + .btn,
   .btn-group .btn + .btn-group,
-  .btn-group .section.services .wrap .content .service ul li a + .btn-group, .section.services .wrap .content .service ul li
-  .btn-group a + .btn-group,
   .btn-group .btn-group + .btn,
-  .btn-group .section.services .wrap .content .service ul li .btn-group + a, .section.services .wrap .content .service ul li
-  .btn-group .btn-group + a,
   .btn-group .btn-group + .btn-group,
   .btn-group-vertical .btn + .btn,
-  .btn-group-vertical .section.services .wrap .content .service ul li a + .btn, .section.services .wrap .content .service ul li
-  .btn-group-vertical a + .btn,
-  .btn-group-vertical .section.services .wrap .content .service ul li .btn + a, .section.services .wrap .content .service ul li
-  .btn-group-vertical .btn + a,
-  .btn-group-vertical .section.services .wrap .content .service ul li a + a, .section.services .wrap .content .service ul li
-  .btn-group-vertical a + a,
   .btn-group-vertical .btn + .btn-group,
-  .btn-group-vertical .section.services .wrap .content .service ul li a + .btn-group, .section.services .wrap .content .service ul li
-  .btn-group-vertical a + .btn-group,
   .btn-group-vertical .btn-group + .btn,
-  .btn-group-vertical .section.services .wrap .content .service ul li .btn-group + a, .section.services .wrap .content .service ul li
-  .btn-group-vertical .btn-group + a,
   .btn-group-vertical .btn-group + .btn-group {
     margin-left: -1px; }
 
@@ -2470,19 +2444,19 @@ tbody.collapse.show {
   .btn-toolbar .input-group {
     width: auto; }
 
-.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .section.services .wrap .content .service ul li .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   -webkit-border-radius: 0;
           border-radius: 0; }
 
-.btn-group > .btn:first-child, .section.services .wrap .content .service ul li .btn-group > a:first-child {
+.btn-group > .btn:first-child {
   margin-left: 0; }
-  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .section.services .wrap .content .service ul li .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle) {
+  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
     -webkit-border-top-right-radius: 0;
             border-top-right-radius: 0;
     -webkit-border-bottom-right-radius: 0;
             border-bottom-right-radius: 0; }
 
-.btn-group > .btn:last-child:not(:first-child), .section.services .wrap .content .service ul li .btn-group > a:last-child:not(:first-child),
+.btn-group > .btn:last-child:not(:first-child),
 .btn-group > .dropdown-toggle:not(:first-child) {
   -webkit-border-top-left-radius: 0;
           border-top-left-radius: 0;
@@ -2492,34 +2466,34 @@ tbody.collapse.show {
 .btn-group > .btn-group {
   float: left; }
 
-.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn, .section.services .wrap .content .service ul li .btn-group > .btn-group:not(:first-child):not(:last-child) > a {
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
   -webkit-border-radius: 0;
           border-radius: 0; }
 
-.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child, .section.services .wrap .content .service ul li .btn-group > .btn-group:first-child:not(:last-child) > a:last-child,
+.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   -webkit-border-top-right-radius: 0;
           border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 0;
           border-bottom-right-radius: 0; }
 
-.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child, .section.services .wrap .content .service ul li .btn-group > .btn-group:last-child:not(:first-child) > a:first-child {
+.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
   -webkit-border-top-left-radius: 0;
           border-top-left-radius: 0;
   -webkit-border-bottom-left-radius: 0;
           border-bottom-left-radius: 0; }
 
-.btn + .dropdown-toggle-split, .section.services .wrap .content .service ul li a + .dropdown-toggle-split {
+.btn + .dropdown-toggle-split {
   padding-right: 0.5625rem;
   padding-left: 0.5625rem; }
-  .btn + .dropdown-toggle-split::after, .section.services .wrap .content .service ul li a + .dropdown-toggle-split::after {
+  .btn + .dropdown-toggle-split::after {
     margin-left: 0; }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .section.services .wrap .content .service ul li .btn-group-sm > a + .dropdown-toggle-split, .section.services .wrap .content .service ul li a + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem; }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .section.services .wrap .content .service ul li .btn-group-lg > a + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem; }
 
@@ -2541,58 +2515,53 @@ tbody.collapse.show {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .btn-group-vertical .btn, .btn-group-vertical .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .btn-group-vertical a,
+  .btn-group-vertical .btn,
   .btn-group-vertical .btn-group {
     width: 100%; }
-  .btn-group-vertical > .btn + .btn, .section.services .wrap .content .service ul li .btn-group-vertical > a + .btn, .section.services .wrap .content .service ul li .btn-group-vertical > .btn + a, .section.services .wrap .content .service ul li .btn-group-vertical > a + a,
-  .btn-group-vertical > .btn + .btn-group, .section.services .wrap .content .service ul li
-  .btn-group-vertical > a + .btn-group,
-  .btn-group-vertical > .btn-group + .btn, .section.services .wrap .content .service ul li
-  .btn-group-vertical > .btn-group + a,
+  .btn-group-vertical > .btn + .btn,
+  .btn-group-vertical > .btn + .btn-group,
+  .btn-group-vertical > .btn-group + .btn,
   .btn-group-vertical > .btn-group + .btn-group {
     margin-top: -1px;
     margin-left: 0; }
 
-.btn-group-vertical > .btn:not(:first-child):not(:last-child), .section.services .wrap .content .service ul li .btn-group-vertical > a:not(:first-child):not(:last-child) {
+.btn-group-vertical > .btn:not(:first-child):not(:last-child) {
   -webkit-border-radius: 0;
           border-radius: 0; }
 
-.btn-group-vertical > .btn:first-child:not(:last-child), .section.services .wrap .content .service ul li .btn-group-vertical > a:first-child:not(:last-child) {
+.btn-group-vertical > .btn:first-child:not(:last-child) {
   -webkit-border-bottom-right-radius: 0;
           border-bottom-right-radius: 0;
   -webkit-border-bottom-left-radius: 0;
           border-bottom-left-radius: 0; }
 
-.btn-group-vertical > .btn:last-child:not(:first-child), .section.services .wrap .content .service ul li .btn-group-vertical > a:last-child:not(:first-child) {
+.btn-group-vertical > .btn:last-child:not(:first-child) {
   -webkit-border-top-left-radius: 0;
           border-top-left-radius: 0;
   -webkit-border-top-right-radius: 0;
           border-top-right-radius: 0; }
 
-.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn, .section.services .wrap .content .service ul li .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > a {
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
   -webkit-border-radius: 0;
           border-radius: 0; }
 
-.btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child, .section.services .wrap .content .service ul li .btn-group-vertical > .btn-group:first-child:not(:last-child) > a:last-child,
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   -webkit-border-bottom-right-radius: 0;
           border-bottom-right-radius: 0;
   -webkit-border-bottom-left-radius: 0;
           border-bottom-left-radius: 0; }
 
-.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child, .section.services .wrap .content .service ul li .btn-group-vertical > .btn-group:last-child:not(:first-child) > a:first-child {
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
   -webkit-border-top-left-radius: 0;
           border-top-left-radius: 0;
   -webkit-border-top-right-radius: 0;
           border-top-right-radius: 0; }
 
-[data-toggle="buttons"] > .btn input[type="radio"], .section.services .wrap .content .service ul li [data-toggle="buttons"] > a input[type="radio"],
-[data-toggle="buttons"] > .btn input[type="checkbox"], .section.services .wrap .content .service ul li
-[data-toggle="buttons"] > a input[type="checkbox"],
-[data-toggle="buttons"] > .btn-group > .btn input[type="radio"], .section.services .wrap .content .service ul li
-[data-toggle="buttons"] > .btn-group > a input[type="radio"],
-[data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"], .section.services .wrap .content .service ul li
-[data-toggle="buttons"] > .btn-group > a input[type="checkbox"] {
+[data-toggle="buttons"] > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn input[type="checkbox"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none; }
@@ -2654,16 +2623,14 @@ tbody.collapse.show {
           border-radius: 0.25rem; }
   .input-group-addon.form-control-sm,
   .input-group-sm > .input-group-addon,
-  .input-group-sm > .input-group-btn > .input-group-addon.btn, .section.services .wrap .content .service ul li
-  .input-group-sm > .input-group-btn > a.input-group-addon {
+  .input-group-sm > .input-group-btn > .input-group-addon.btn {
     padding: 0.25rem 0.5rem;
     font-size: 0.875rem;
     -webkit-border-radius: 0.2rem;
             border-radius: 0.2rem; }
   .input-group-addon.form-control-lg,
   .input-group-lg > .input-group-addon,
-  .input-group-lg > .input-group-btn > .input-group-addon.btn, .section.services .wrap .content .service ul li
-  .input-group-lg > .input-group-btn > a.input-group-addon {
+  .input-group-lg > .input-group-btn > .input-group-addon.btn {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     -webkit-border-radius: 0.3rem;
@@ -2674,15 +2641,11 @@ tbody.collapse.show {
 
 .input-group .form-control:not(:last-child),
 .input-group-addon:not(:last-child),
-.input-group-btn:not(:last-child) > .btn, .section.services .wrap .content .service ul li
-.input-group-btn:not(:last-child) > a,
-.input-group-btn:not(:last-child) > .btn-group > .btn, .section.services .wrap .content .service ul li
-.input-group-btn:not(:last-child) > .btn-group > a,
+.input-group-btn:not(:last-child) > .btn,
+.input-group-btn:not(:last-child) > .btn-group > .btn,
 .input-group-btn:not(:last-child) > .dropdown-toggle,
-.input-group-btn:not(:first-child) > .btn:not(:last-child):not(.dropdown-toggle), .section.services .wrap .content .service ul li
-.input-group-btn:not(:first-child) > a:not(:last-child):not(.dropdown-toggle),
-.input-group-btn:not(:first-child) > .btn-group:not(:last-child) > .btn, .section.services .wrap .content .service ul li
-.input-group-btn:not(:first-child) > .btn-group:not(:last-child) > a {
+.input-group-btn:not(:first-child) > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group-btn:not(:first-child) > .btn-group:not(:last-child) > .btn {
   -webkit-border-top-right-radius: 0;
           border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 0;
@@ -2693,15 +2656,11 @@ tbody.collapse.show {
 
 .input-group .form-control:not(:first-child),
 .input-group-addon:not(:first-child),
-.input-group-btn:not(:first-child) > .btn, .section.services .wrap .content .service ul li
-.input-group-btn:not(:first-child) > a,
-.input-group-btn:not(:first-child) > .btn-group > .btn, .section.services .wrap .content .service ul li
-.input-group-btn:not(:first-child) > .btn-group > a,
+.input-group-btn:not(:first-child) > .btn,
+.input-group-btn:not(:first-child) > .btn-group > .btn,
 .input-group-btn:not(:first-child) > .dropdown-toggle,
-.input-group-btn:not(:last-child) > .btn:not(:first-child), .section.services .wrap .content .service ul li
-.input-group-btn:not(:last-child) > a:not(:first-child),
-.input-group-btn:not(:last-child) > .btn-group:not(:first-child) > .btn, .section.services .wrap .content .service ul li
-.input-group-btn:not(:last-child) > .btn-group:not(:first-child) > a {
+.input-group-btn:not(:last-child) > .btn:not(:first-child),
+.input-group-btn:not(:last-child) > .btn-group:not(:first-child) > .btn {
   -webkit-border-top-left-radius: 0;
           border-top-left-radius: 0;
   -webkit-border-bottom-left-radius: 0;
@@ -2714,23 +2673,23 @@ tbody.collapse.show {
   position: relative;
   font-size: 0;
   white-space: nowrap; }
-  .input-group-btn > .btn, .section.services .wrap .content .service ul li .input-group-btn > a {
+  .input-group-btn > .btn {
     position: relative;
     -webkit-background-clip: padding-box;
             background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15); }
-    .input-group-btn > .btn + .btn, .section.services .wrap .content .service ul li .input-group-btn > a + .btn, .section.services .wrap .content .service ul li .input-group-btn > .btn + a, .section.services .wrap .content .service ul li .input-group-btn > a + a {
+    .input-group-btn > .btn + .btn {
       margin-left: -1px; }
-    .input-group-btn > .btn:focus, .section.services .wrap .content .service ul li .input-group-btn > a:focus, .input-group-btn > .btn:active, .section.services .wrap .content .service ul li .input-group-btn > a:active, .input-group-btn > .btn:hover, .section.services .wrap .content .service ul li .input-group-btn > a:hover {
+    .input-group-btn > .btn:focus, .input-group-btn > .btn:active, .input-group-btn > .btn:hover {
       z-index: 3; }
-  .input-group-btn:not(:last-child) > .btn, .section.services .wrap .content .service ul li .input-group-btn:not(:last-child) > a,
+  .input-group-btn:not(:last-child) > .btn,
   .input-group-btn:not(:last-child) > .btn-group {
     margin-right: -1px; }
-  .input-group-btn:not(:first-child) > .btn, .section.services .wrap .content .service ul li .input-group-btn:not(:first-child) > a,
+  .input-group-btn:not(:first-child) > .btn,
   .input-group-btn:not(:first-child) > .btn-group {
     z-index: 2;
     margin-left: -1px; }
-    .input-group-btn:not(:first-child) > .btn:focus, .section.services .wrap .content .service ul li .input-group-btn:not(:first-child) > a:focus, .input-group-btn:not(:first-child) > .btn:active, .section.services .wrap .content .service ul li .input-group-btn:not(:first-child) > a:active, .input-group-btn:not(:first-child) > .btn:hover, .section.services .wrap .content .service ul li .input-group-btn:not(:first-child) > a:hover,
+    .input-group-btn:not(:first-child) > .btn:focus, .input-group-btn:not(:first-child) > .btn:active, .input-group-btn:not(:first-child) > .btn:hover,
     .input-group-btn:not(:first-child) > .btn-group:focus,
     .input-group-btn:not(:first-child) > .btn-group:active,
     .input-group-btn:not(:first-child) > .btn-group:hover {
@@ -2926,35 +2885,33 @@ tbody.collapse.show {
   margin-bottom: 0;
   list-style: none; }
 
-.nav-link, header.header-primary .content .contact nav a, nav.navbar-primary .navbar-nav li a, nav.social-nav a, .section.services .wrap .content .service ul li a, .footer .footer-post .nav-links ul li a {
+.nav-link, header.header-primary .content .contact nav a, nav.navbar-primary .navbar-nav li a, nav.social-nav a, .footer .footer-post .nav-links ul li a {
   display: block;
   padding: 0.5rem 1rem; }
-  .nav-link:focus, header.header-primary .content .contact nav a:focus, nav.navbar-primary .navbar-nav li a:focus, nav.social-nav a:focus, .section.services .wrap .content .service ul li a:focus, .footer .footer-post .nav-links ul li a:focus, .nav-link:hover, header.header-primary .content .contact nav a:hover, nav.navbar-primary .navbar-nav li a:hover, nav.social-nav a:hover, .section.services .wrap .content .service ul li a:hover, .footer .footer-post .nav-links ul li a:hover {
+  .nav-link:focus, header.header-primary .content .contact nav a:focus, nav.navbar-primary .navbar-nav li a:focus, nav.social-nav a:focus, .footer .footer-post .nav-links ul li a:focus, .nav-link:hover, header.header-primary .content .contact nav a:hover, nav.navbar-primary .navbar-nav li a:hover, nav.social-nav a:hover, .footer .footer-post .nav-links ul li a:hover {
     text-decoration: none; }
-  .nav-link.disabled, header.header-primary .content .contact nav a.disabled, nav.navbar-primary .navbar-nav li a.disabled, nav.social-nav a.disabled, .section.services .wrap .content .service ul li a.disabled, .footer .footer-post .nav-links ul li a.disabled {
+  .nav-link.disabled, header.header-primary .content .contact nav a.disabled, nav.navbar-primary .navbar-nav li a.disabled, nav.social-nav a.disabled, .footer .footer-post .nav-links ul li a.disabled {
     color: #868e96; }
 
 .nav-tabs {
   border-bottom: 1px solid #ddd; }
-  .nav-tabs .nav-item, .nav-tabs nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-tabs li, .nav-tabs .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-tabs li, .nav-tabs .footer .footer-post .nav-links ul li, .footer .footer-post .nav-links ul .nav-tabs li {
+  .nav-tabs .nav-item, .nav-tabs nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-tabs li, .nav-tabs .footer .footer-post .nav-links ul li, .footer .footer-post .nav-links ul .nav-tabs li {
     margin-bottom: -1px; }
-  .nav-tabs .nav-link, .nav-tabs header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-tabs a, .nav-tabs nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-tabs a, .nav-tabs nav.social-nav a, nav.social-nav .nav-tabs a, .nav-tabs .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .nav-tabs a, .nav-tabs .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .nav-tabs a {
+  .nav-tabs .nav-link, .nav-tabs header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-tabs a, .nav-tabs nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-tabs a, .nav-tabs nav.social-nav a, nav.social-nav .nav-tabs a, .nav-tabs .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .nav-tabs a {
     border: 1px solid transparent;
     -webkit-border-top-left-radius: 0.25rem;
             border-top-left-radius: 0.25rem;
     -webkit-border-top-right-radius: 0.25rem;
             border-top-right-radius: 0.25rem; }
-    .nav-tabs .nav-link:focus, .nav-tabs header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .nav-tabs a:focus, .nav-tabs nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li .nav-tabs a:focus, .nav-tabs nav.social-nav a:focus, nav.social-nav .nav-tabs a:focus, .nav-tabs .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .nav-tabs a:focus, .nav-tabs .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li .nav-tabs a:focus, .nav-tabs .nav-link:hover, .nav-tabs header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .nav-tabs a:hover, .nav-tabs nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li .nav-tabs a:hover, .nav-tabs nav.social-nav a:hover, nav.social-nav .nav-tabs a:hover, .nav-tabs .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .nav-tabs a:hover, .nav-tabs .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li .nav-tabs a:hover {
+    .nav-tabs .nav-link:focus, .nav-tabs header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .nav-tabs a:focus, .nav-tabs nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li .nav-tabs a:focus, .nav-tabs nav.social-nav a:focus, nav.social-nav .nav-tabs a:focus, .nav-tabs .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li .nav-tabs a:focus, .nav-tabs .nav-link:hover, .nav-tabs header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .nav-tabs a:hover, .nav-tabs nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li .nav-tabs a:hover, .nav-tabs nav.social-nav a:hover, nav.social-nav .nav-tabs a:hover, .nav-tabs .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li .nav-tabs a:hover {
       border-color: #e9ecef #e9ecef #ddd; }
-    .nav-tabs .nav-link.disabled, .nav-tabs header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .nav-tabs a.disabled, .nav-tabs nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li .nav-tabs a.disabled, .nav-tabs nav.social-nav a.disabled, nav.social-nav .nav-tabs a.disabled, .nav-tabs .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .nav-tabs a.disabled, .nav-tabs .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li .nav-tabs a.disabled {
+    .nav-tabs .nav-link.disabled, .nav-tabs header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .nav-tabs a.disabled, .nav-tabs nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li .nav-tabs a.disabled, .nav-tabs nav.social-nav a.disabled, nav.social-nav .nav-tabs a.disabled, .nav-tabs .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li .nav-tabs a.disabled {
       color: #868e96;
       background-color: transparent;
       border-color: transparent; }
-  .nav-tabs .nav-link.active, .nav-tabs header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-tabs a.active, .nav-tabs nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-tabs a.active, .nav-tabs nav.social-nav a.active, nav.social-nav .nav-tabs a.active, .nav-tabs .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .nav-tabs a.active, .nav-tabs .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li .nav-tabs a.active,
+  .nav-tabs .nav-link.active, .nav-tabs header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-tabs a.active, .nav-tabs nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-tabs a.active, .nav-tabs nav.social-nav a.active, nav.social-nav .nav-tabs a.active, .nav-tabs .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li .nav-tabs a.active,
   .nav-tabs .nav-item.show .nav-link,
   .nav-tabs nav.navbar-primary .navbar-nav li.show .nav-link, nav.navbar-primary .navbar-nav
-  .nav-tabs li.show .nav-link,
-  .nav-tabs .section.services .wrap .content .service ul li.show .nav-link, .section.services .wrap .content .service ul
   .nav-tabs li.show .nav-link,
   .nav-tabs .footer .footer-post .nav-links ul li.show .nav-link, .footer .footer-post .nav-links ul
   .nav-tabs li.show .nav-link,
@@ -2966,10 +2923,6 @@ tbody.collapse.show {
   .nav-tabs li.show a,
   .nav-tabs .nav-item.show nav.social-nav a, nav.social-nav
   .nav-tabs .nav-item.show a,
-  .nav-tabs .nav-item.show .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li
-  .nav-tabs .nav-item.show a,
-  .nav-tabs .section.services .wrap .content .service ul li.show a, .section.services .wrap .content .service ul
-  .nav-tabs li.show a,
   .nav-tabs .nav-item.show .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li
   .nav-tabs .nav-item.show a,
   .nav-tabs .footer .footer-post .nav-links ul li.show a, .footer .footer-post .nav-links ul
@@ -2984,10 +2937,10 @@ tbody.collapse.show {
     -webkit-border-top-right-radius: 0;
             border-top-right-radius: 0; }
 
-.nav-pills .nav-link, .nav-pills header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-pills a, .nav-pills nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-pills a, .nav-pills nav.social-nav a, nav.social-nav .nav-pills a, .nav-pills .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .nav-pills a, .nav-pills .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .nav-pills a {
+.nav-pills .nav-link, .nav-pills header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-pills a, .nav-pills nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-pills a, .nav-pills nav.social-nav a, nav.social-nav .nav-pills a, .nav-pills .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .nav-pills a {
   -webkit-border-radius: 0.25rem;
           border-radius: 0.25rem; }
-  .nav-pills .nav-link.active, .nav-pills header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-pills a.active, .nav-pills nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-pills a.active, .nav-pills nav.social-nav a.active, nav.social-nav .nav-pills a.active, .nav-pills .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .nav-pills a.active, .nav-pills .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li .nav-pills a.active,
+  .nav-pills .nav-link.active, .nav-pills header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-pills a.active, .nav-pills nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-pills a.active, .nav-pills nav.social-nav a.active, nav.social-nav .nav-pills a.active, .nav-pills .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li .nav-pills a.active,
   .show > .nav-pills .nav-link,
   .show > .nav-pills header.header-primary .content .contact nav a, header.header-primary .content .contact nav
   .show > .nav-pills a,
@@ -2995,21 +2948,19 @@ tbody.collapse.show {
   .show > .nav-pills a,
   .show > .nav-pills nav.social-nav a, nav.social-nav
   .show > .nav-pills a,
-  .show > .nav-pills .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li
-  .show > .nav-pills a,
   .show > .nav-pills .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li
   .show > .nav-pills a {
     color: #fff;
     background-color: #007bff; }
 
-.nav-fill .nav-item, .nav-fill nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-fill li, .nav-fill .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-fill li, .nav-fill .footer .footer-post .nav-links ul li, .footer .footer-post .nav-links ul .nav-fill li {
+.nav-fill .nav-item, .nav-fill nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-fill li, .nav-fill .footer .footer-post .nav-links ul li, .footer .footer-post .nav-links ul .nav-fill li {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   text-align: center; }
 
-.nav-justified .nav-item, .nav-justified nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-justified li, .nav-justified .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-justified li, .nav-justified .footer .footer-post .nav-links ul li, .footer .footer-post .nav-links ul .nav-justified li {
+.nav-justified .nav-item, .nav-justified nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-justified li, .nav-justified .footer .footer-post .nav-links ul li, .footer .footer-post .nav-links ul .nav-justified li {
   -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
           flex-basis: 0;
@@ -3022,7 +2973,7 @@ tbody.collapse.show {
 .tab-content > .tab-pane {
   display: none; }
 
-.tab-content > .active, .section.services .wrap .content .service ul li .tab-content > a.active {
+.tab-content > .active {
   display: block; }
 
 .navbar, nav.navbar-primary {
@@ -3085,7 +3036,7 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; }
-  .navbar-nav .nav-link, .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-nav a, nav.navbar-primary .navbar-nav li a, .navbar-nav nav.social-nav a, nav.social-nav .navbar-nav a, .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-nav a, .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-nav a {
+  .navbar-nav .nav-link, .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-nav a, nav.navbar-primary .navbar-nav li a, .navbar-nav nav.social-nav a, nav.social-nav .navbar-nav a, .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-nav a {
     padding-right: 0;
     padding-left: 0; }
   .navbar-nav .dropdown-menu {
@@ -3158,7 +3109,7 @@ tbody.collapse.show {
       .navbar-expand-sm .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-sm .navbar-nav .nav-link, .navbar-expand-sm .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-sm .navbar-nav a, .navbar-expand-sm nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-sm .navbar-nav li a, .navbar-expand-sm .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-sm .navbar-nav a {
+      .navbar-expand-sm .navbar-nav .nav-link, .navbar-expand-sm .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-sm .navbar-nav a, .navbar-expand-sm nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-sm .navbar-nav li a, .navbar-expand-sm .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-sm .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-sm > .container, .navbar-expand-sm > .wrap,
@@ -3205,7 +3156,7 @@ tbody.collapse.show {
       .navbar-expand-md .navbar-nav .dropdown-menu-right, nav.navbar-primary .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-md .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-expand-md .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-md .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-expand-md nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-md .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-expand-md .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav nav.social-nav a, nav.social-nav nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a {
+      .navbar-expand-md .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-expand-md .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-md .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-expand-md nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-md .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-expand-md .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav nav.social-nav a, nav.social-nav nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-md > .container, nav.navbar-primary > .container, .navbar-expand-md > .wrap, nav.navbar-primary > .wrap,
@@ -3252,7 +3203,7 @@ tbody.collapse.show {
       .navbar-expand-lg .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-lg .navbar-nav a, .navbar-expand-lg nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-lg .navbar-nav li a, .navbar-expand-lg .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-lg .navbar-nav a {
+      .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-lg .navbar-nav a, .navbar-expand-lg nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-lg .navbar-nav li a, .navbar-expand-lg .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-lg .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-lg > .container, .navbar-expand-lg > .wrap,
@@ -3299,7 +3250,7 @@ tbody.collapse.show {
       .navbar-expand-xl .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-xl .navbar-nav .nav-link, .navbar-expand-xl .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-xl .navbar-nav a, .navbar-expand-xl nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-xl .navbar-nav li a, .navbar-expand-xl .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-xl .navbar-nav a {
+      .navbar-expand-xl .navbar-nav .nav-link, .navbar-expand-xl .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-xl .navbar-nav a, .navbar-expand-xl nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-xl .navbar-nav li a, .navbar-expand-xl .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-xl .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-xl > .container, .navbar-expand-xl > .wrap,
@@ -3343,7 +3294,7 @@ tbody.collapse.show {
     .navbar-expand .navbar-nav .dropdown-menu-right {
       right: 0;
       left: auto; }
-    .navbar-expand .navbar-nav .nav-link, .navbar-expand .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand .navbar-nav a, .navbar-expand nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand .navbar-nav li a, .navbar-expand .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand .navbar-nav a {
+    .navbar-expand .navbar-nav .nav-link, .navbar-expand .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand .navbar-nav a, .navbar-expand nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand .navbar-nav li a, .navbar-expand .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand .navbar-nav a {
       padding-right: .5rem;
       padding-left: .5rem; }
   .navbar-expand > .container, .navbar-expand > .wrap,
@@ -3364,31 +3315,21 @@ tbody.collapse.show {
   .navbar-light .navbar-brand:focus, nav.navbar-primary .navbar-brand:focus, .navbar-light .navbar-brand:hover, nav.navbar-primary .navbar-brand:hover {
     color: rgba(0, 0, 0, 0.9); }
 
-.navbar-light .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-light .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-light nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-light .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-light .navbar-nav nav.social-nav a, nav.social-nav .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav nav.social-nav a, nav.social-nav nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a {
+.navbar-light .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-light .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-light nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-light .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-light .navbar-nav nav.social-nav a, nav.social-nav .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav nav.social-nav a, nav.social-nav nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a {
   color: rgba(0, 0, 0, 0.5); }
-  .navbar-light .navbar-nav .nav-link:focus, nav.navbar-primary .navbar-nav .nav-link:focus, .navbar-light .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-light .navbar-nav a:focus, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:focus, .navbar-light nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-light .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li a:focus, .navbar-light .navbar-nav nav.social-nav a:focus, nav.social-nav .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav nav.social-nav a:focus, nav.social-nav nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .nav-link:hover, nav.navbar-primary .navbar-nav .nav-link:hover, .navbar-light .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-light .navbar-nav a:hover, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:hover, .navbar-light nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-light .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li a:hover, .navbar-light .navbar-nav nav.social-nav a:hover, nav.social-nav .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav nav.social-nav a:hover, nav.social-nav nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a:hover {
+  .navbar-light .navbar-nav .nav-link:focus, nav.navbar-primary .navbar-nav .nav-link:focus, .navbar-light .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-light .navbar-nav a:focus, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:focus, .navbar-light nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-light .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li a:focus, .navbar-light .navbar-nav nav.social-nav a:focus, nav.social-nav .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav nav.social-nav a:focus, nav.social-nav nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .nav-link:hover, nav.navbar-primary .navbar-nav .nav-link:hover, .navbar-light .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-light .navbar-nav a:hover, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:hover, .navbar-light nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-light .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li a:hover, .navbar-light .navbar-nav nav.social-nav a:hover, nav.social-nav .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav nav.social-nav a:hover, nav.social-nav nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a:hover {
     color: rgba(0, 0, 0, 0.7); }
-  .navbar-light .navbar-nav .nav-link.disabled, nav.navbar-primary .navbar-nav .nav-link.disabled, .navbar-light .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-light .navbar-nav a.disabled, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.disabled, .navbar-light nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-light .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li a.disabled, .navbar-light .navbar-nav nav.social-nav a.disabled, nav.social-nav .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav nav.social-nav a.disabled, nav.social-nav nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a.disabled {
+  .navbar-light .navbar-nav .nav-link.disabled, nav.navbar-primary .navbar-nav .nav-link.disabled, .navbar-light .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-light .navbar-nav a.disabled, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.disabled, .navbar-light nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-light .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li a.disabled, .navbar-light .navbar-nav nav.social-nav a.disabled, nav.social-nav .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav nav.social-nav a.disabled, nav.social-nav nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a.disabled {
     color: rgba(0, 0, 0, 0.3); }
 
-.navbar-light .navbar-nav .show > .nav-link, nav.navbar-primary .navbar-nav .show > .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-light .navbar-nav .show > a, header.header-primary .content .contact nav.navbar-primary .navbar-nav .show > a, .navbar-light nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-light .navbar-nav li .show > a, nav.navbar-primary .navbar-nav li .show > a, .navbar-light .navbar-nav nav.social-nav .show > a, nav.social-nav .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav nav.social-nav .show > a, nav.social-nav nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li .show > a, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li .show > a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav .show > a,
+.navbar-light .navbar-nav .show > .nav-link, nav.navbar-primary .navbar-nav .show > .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-light .navbar-nav .show > a, header.header-primary .content .contact nav.navbar-primary .navbar-nav .show > a, .navbar-light nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-light .navbar-nav li .show > a, nav.navbar-primary .navbar-nav li .show > a, .navbar-light .navbar-nav nav.social-nav .show > a, nav.social-nav .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav nav.social-nav .show > a, nav.social-nav nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li .show > a, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li .show > a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav .show > a,
 .navbar-light .navbar-nav .active > .nav-link, nav.navbar-primary .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .section.services .wrap .content .service ul li a.active > .nav-link, .section.services .wrap .content .service ul li
-.navbar-light .navbar-nav a.active > .nav-link, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.active > .nav-link, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.active > .nav-link,
 .navbar-light .navbar-nav header.header-primary .content .contact nav .active > a, header.header-primary .content .contact nav
-.navbar-light .navbar-nav .active > a, header.header-primary .content .contact nav.navbar-primary .navbar-nav .active > a, header.header-primary
-.navbar-light .navbar-nav .section.services .wrap .content .service ul li .contact nav a.active > a, .section.services .wrap header.header-primary .content .service ul li
-.navbar-light .navbar-nav .contact nav a.active > a, header.header-primary .section.services .wrap .content .service ul li
-.navbar-light .navbar-nav .contact nav a.active > a, nav.navbar-primary .navbar-nav .section.services .wrap header.header-primary .content .service ul li .contact nav a.active > a, header.header-primary nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li .contact nav a.active > a,
+.navbar-light .navbar-nav .active > a, header.header-primary .content .contact nav.navbar-primary .navbar-nav .active > a,
 .navbar-light nav.navbar-primary .navbar-nav li .active > a, nav.navbar-primary
-.navbar-light .navbar-nav li .active > a, nav.navbar-primary .navbar-nav li .active > a, nav.navbar-primary .section.services .wrap .content .service ul li
-.navbar-light .navbar-nav li a.active > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav li a.active > a,
+.navbar-light .navbar-nav li .active > a, nav.navbar-primary .navbar-nav li .active > a,
 .navbar-light .navbar-nav nav.social-nav .active > a, nav.social-nav
 .navbar-light .navbar-nav .active > a, nav.navbar-primary .navbar-nav nav.social-nav .active > a, nav.social-nav nav.navbar-primary .navbar-nav .active > a,
-.navbar-light .navbar-nav .section.services .wrap .content .service ul li nav.social-nav a.active > a, .section.services .wrap .content .service ul li
-.navbar-light .navbar-nav nav.social-nav a.active > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li nav.social-nav a.active > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav nav.social-nav a.active > a,
-.navbar-light .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li
-.navbar-light .navbar-nav .active > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav .active > a,
 .navbar-light .navbar-nav .footer .footer-post .nav-links ul li .active > a, .footer .footer-post .nav-links ul li
 .navbar-light .navbar-nav .active > a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li .active > a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav .active > a,
 .navbar-light .navbar-nav .nav-link.show, nav.navbar-primary .navbar-nav .nav-link.show,
@@ -3398,19 +3339,15 @@ tbody.collapse.show {
 .navbar-light .navbar-nav li a.show, nav.navbar-primary .navbar-nav li a.show,
 .navbar-light .navbar-nav nav.social-nav a.show, nav.social-nav
 .navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav nav.social-nav a.show, nav.social-nav nav.navbar-primary .navbar-nav a.show,
-.navbar-light .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li
-.navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.show,
 .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a.show, .footer .footer-post .nav-links ul li
 .navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a.show, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a.show,
 .navbar-light .navbar-nav .nav-link.active, nav.navbar-primary .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav
 .navbar-light .navbar-nav a.active, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.active,
 .navbar-light nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary
-.navbar-light .navbar-nav li a.active, nav.navbar-primary .navbar-nav li a.active, .section.services .wrap .content .service ul nav.navbar-primary .navbar-nav li a.active,
+.navbar-light .navbar-nav li a.active, nav.navbar-primary .navbar-nav li a.active,
 .navbar-light .navbar-nav nav.social-nav a.active, nav.social-nav
 .navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav nav.social-nav a.active, nav.social-nav nav.navbar-primary .navbar-nav a.active,
-.navbar-light .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li
-.navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.active,
 .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li
 .navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a.active {
   color: rgba(0, 0, 0, 0.9); }
@@ -3430,31 +3367,20 @@ tbody.collapse.show {
   .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
     color: white; }
 
-.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-dark .navbar-nav a, .navbar-dark nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-dark .navbar-nav li a, .navbar-dark .navbar-nav nav.social-nav a, nav.social-nav .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a {
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-dark .navbar-nav a, .navbar-dark nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-dark .navbar-nav li a, .navbar-dark .navbar-nav nav.social-nav a, nav.social-nav .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a {
   color: rgba(255, 255, 255, 0.5); }
-  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:focus, .navbar-dark nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-dark .navbar-nav li a:focus, .navbar-dark .navbar-nav nav.social-nav a:focus, nav.social-nav .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:hover, .navbar-dark nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-dark .navbar-nav li a:hover, .navbar-dark .navbar-nav nav.social-nav a:hover, nav.social-nav .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a:hover {
+  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:focus, .navbar-dark nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-dark .navbar-nav li a:focus, .navbar-dark .navbar-nav nav.social-nav a:focus, nav.social-nav .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:hover, .navbar-dark nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-dark .navbar-nav li a:hover, .navbar-dark .navbar-nav nav.social-nav a:hover, nav.social-nav .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a:hover {
     color: rgba(255, 255, 255, 0.75); }
-  .navbar-dark .navbar-nav .nav-link.disabled, .navbar-dark .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-dark .navbar-nav a.disabled, .navbar-dark nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-dark .navbar-nav li a.disabled, .navbar-dark .navbar-nav nav.social-nav a.disabled, nav.social-nav .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a.disabled {
+  .navbar-dark .navbar-nav .nav-link.disabled, .navbar-dark .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-dark .navbar-nav a.disabled, .navbar-dark nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-dark .navbar-nav li a.disabled, .navbar-dark .navbar-nav nav.social-nav a.disabled, nav.social-nav .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a.disabled {
     color: rgba(255, 255, 255, 0.25); }
 
-.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-dark .navbar-nav .show > a, .navbar-dark nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-dark .navbar-nav li .show > a, .navbar-dark .navbar-nav nav.social-nav .show > a, nav.social-nav .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li .show > a, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav .show > a,
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-dark .navbar-nav .show > a, .navbar-dark nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-dark .navbar-nav li .show > a, .navbar-dark .navbar-nav nav.social-nav .show > a, nav.social-nav .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li .show > a, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav .show > a,
 .navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.active > .nav-link, .section.services .wrap .content .service ul li
-.navbar-dark .navbar-nav a.active > .nav-link,
 .navbar-dark .navbar-nav header.header-primary .content .contact nav .active > a, header.header-primary .content .contact nav
-.navbar-dark .navbar-nav .active > a, header.header-primary
-.navbar-dark .navbar-nav .section.services .wrap .content .service ul li .contact nav a.active > a, .section.services .wrap header.header-primary .content .service ul li
-.navbar-dark .navbar-nav .contact nav a.active > a, header.header-primary .section.services .wrap .content .service ul li
-.navbar-dark .navbar-nav .contact nav a.active > a,
-.navbar-dark nav.navbar-primary .navbar-nav li .active > a, nav.navbar-primary
-.navbar-dark .navbar-nav li .active > a, .section.services .wrap .content .service ul li
-.navbar-dark nav.navbar-primary .navbar-nav li a.active > a, nav.navbar-primary .section.services .wrap .content .service ul li
-.navbar-dark .navbar-nav li a.active > a,
-.navbar-dark .navbar-nav nav.social-nav .active > a, nav.social-nav
 .navbar-dark .navbar-nav .active > a,
-.navbar-dark .navbar-nav .section.services .wrap .content .service ul li nav.social-nav a.active > a, .section.services .wrap .content .service ul li
-.navbar-dark .navbar-nav nav.social-nav a.active > a,
-.navbar-dark .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li
+.navbar-dark nav.navbar-primary .navbar-nav li .active > a, nav.navbar-primary
+.navbar-dark .navbar-nav li .active > a,
+.navbar-dark .navbar-nav nav.social-nav .active > a, nav.social-nav
 .navbar-dark .navbar-nav .active > a,
 .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li .active > a, .footer .footer-post .nav-links ul li
 .navbar-dark .navbar-nav .active > a,
@@ -3465,8 +3391,6 @@ tbody.collapse.show {
 .navbar-dark .navbar-nav li a.show,
 .navbar-dark .navbar-nav nav.social-nav a.show, nav.social-nav
 .navbar-dark .navbar-nav a.show,
-.navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li
-.navbar-dark .navbar-nav a.show,
 .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a.show, .footer .footer-post .nav-links ul li
 .navbar-dark .navbar-nav a.show,
 .navbar-dark .navbar-nav .nav-link.active,
@@ -3474,11 +3398,7 @@ tbody.collapse.show {
 .navbar-dark .navbar-nav a.active,
 .navbar-dark nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary
 .navbar-dark .navbar-nav li a.active,
-.navbar-dark .section.services .wrap .content .service ul nav.navbar-primary .navbar-nav li a.active, .section.services .wrap .content .service ul nav.navbar-primary
-.navbar-dark .navbar-nav li a.active,
 .navbar-dark .navbar-nav nav.social-nav a.active, nav.social-nav
-.navbar-dark .navbar-nav a.active,
-.navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li
 .navbar-dark .navbar-nav a.active,
 .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li
 .navbar-dark .navbar-nav a.active {
@@ -3494,7 +3414,7 @@ tbody.collapse.show {
 .navbar-dark .navbar-text {
   color: rgba(255, 255, 255, 0.5); }
 
-.card, article {
+.card {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3514,21 +3434,21 @@ tbody.collapse.show {
   -webkit-border-radius: 0.25rem;
           border-radius: 0.25rem; }
 
-.card-body, article .entry-content {
+.card-body {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.25rem; }
 
-.card-title, .section.services .wrap .content .service .tab-content .owl-carousel .item article .entry-content h4 a, article .entry-content h4 {
+.card-title {
   margin-bottom: 0.75rem; }
 
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0; }
 
-.card-text:last-child, article .entry-content time:last-child {
+.card-text:last-child {
   margin-bottom: 0; }
 
 .card-link:hover {
@@ -3537,13 +3457,13 @@ tbody.collapse.show {
 .card-link + .card-link {
   margin-left: 1.25rem; }
 
-.card > .list-group:first-child .list-group-item:first-child, article > .list-group:first-child .list-group-item:first-child {
+.card > .list-group:first-child .list-group-item:first-child {
   -webkit-border-top-left-radius: 0.25rem;
           border-top-left-radius: 0.25rem;
   -webkit-border-top-right-radius: 0.25rem;
           border-top-right-radius: 0.25rem; }
 
-.card > .list-group:last-child .list-group-item:last-child, article > .list-group:last-child .list-group-item:last-child {
+.card > .list-group:last-child .list-group-item:last-child {
   -webkit-border-bottom-right-radius: 0.25rem;
           border-bottom-right-radius: 0.25rem;
   -webkit-border-bottom-left-radius: 0.25rem;
@@ -3616,7 +3536,7 @@ tbody.collapse.show {
             flex-flow: row wrap;
     margin-right: -15px;
     margin-left: -15px; }
-    .card-deck .card, .section.newsfeed .news .wrapper .card, .card-deck article, .section.newsfeed .news .wrapper article {
+    .card-deck .card, .section.newsfeed .news .wrapper .card {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -3644,46 +3564,45 @@ tbody.collapse.show {
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
-    .card-group .card, .card-group article {
+    .card-group .card {
       -webkit-box-flex: 1;
       -webkit-flex: 1 0 0%;
           -ms-flex: 1 0 0%;
               flex: 1 0 0%; }
-      .card-group .card + .card, .card-group article + .card, .card-group .card + article, .card-group article + article {
+      .card-group .card + .card {
         margin-left: 0;
         border-left: 0; }
-      .card-group .card:first-child, .card-group article:first-child {
+      .card-group .card:first-child {
         -webkit-border-top-right-radius: 0;
                 border-top-right-radius: 0;
         -webkit-border-bottom-right-radius: 0;
                 border-bottom-right-radius: 0; }
-        .card-group .card:first-child .card-img-top, .card-group article:first-child .card-img-top {
+        .card-group .card:first-child .card-img-top {
           -webkit-border-top-right-radius: 0;
                   border-top-right-radius: 0; }
-        .card-group .card:first-child .card-img-bottom, .card-group article:first-child .card-img-bottom {
+        .card-group .card:first-child .card-img-bottom {
           -webkit-border-bottom-right-radius: 0;
                   border-bottom-right-radius: 0; }
-      .card-group .card:last-child, .card-group article:last-child {
+      .card-group .card:last-child {
         -webkit-border-top-left-radius: 0;
                 border-top-left-radius: 0;
         -webkit-border-bottom-left-radius: 0;
                 border-bottom-left-radius: 0; }
-        .card-group .card:last-child .card-img-top, .card-group article:last-child .card-img-top {
+        .card-group .card:last-child .card-img-top {
           -webkit-border-top-left-radius: 0;
                   border-top-left-radius: 0; }
-        .card-group .card:last-child .card-img-bottom, .card-group article:last-child .card-img-bottom {
+        .card-group .card:last-child .card-img-bottom {
           -webkit-border-bottom-left-radius: 0;
                   border-bottom-left-radius: 0; }
-      .card-group .card:not(:first-child):not(:last-child), .card-group article:not(:first-child):not(:last-child) {
+      .card-group .card:not(:first-child):not(:last-child) {
         -webkit-border-radius: 0;
                 border-radius: 0; }
-        .card-group .card:not(:first-child):not(:last-child) .card-img-top, .card-group article:not(:first-child):not(:last-child) .card-img-top,
-        .card-group .card:not(:first-child):not(:last-child) .card-img-bottom,
-        .card-group article:not(:first-child):not(:last-child) .card-img-bottom {
+        .card-group .card:not(:first-child):not(:last-child) .card-img-top,
+        .card-group .card:not(:first-child):not(:last-child) .card-img-bottom {
           -webkit-border-radius: 0;
                   border-radius: 0; } }
 
-.card-columns .card, .card-columns article {
+.card-columns .card {
   margin-bottom: 0.75rem; }
 
 @media (min-width: 576px) {
@@ -3694,7 +3613,7 @@ tbody.collapse.show {
     -webkit-column-gap: 1.25rem;
        -moz-column-gap: 1.25rem;
             column-gap: 1.25rem; }
-    .card-columns .card, .card-columns article {
+    .card-columns .card {
       display: inline-block;
       width: 100%; } }
 
@@ -3722,7 +3641,7 @@ tbody.collapse.show {
     text-decoration: underline; }
   .breadcrumb-item + .breadcrumb-item:hover::before {
     text-decoration: none; }
-  .breadcrumb-item.active, .section.services .wrap .content .service ul li a.breadcrumb-item.active {
+  .breadcrumb-item.active {
     color: #868e96; }
 
 .pagination {
@@ -3748,7 +3667,7 @@ tbody.collapse.show {
   -webkit-border-bottom-right-radius: 0.25rem;
           border-bottom-right-radius: 0.25rem; }
 
-.page-item.active .page-link, .section.services .wrap .content .service ul li a.page-item.active .page-link {
+.page-item.active .page-link {
   z-index: 2;
   color: #fff;
   background-color: #007bff;
@@ -3824,7 +3743,7 @@ tbody.collapse.show {
   .badge:empty {
     display: none; }
 
-.btn .badge, .section.services .wrap .content .service ul li a .badge {
+.btn .badge {
   position: relative;
   top: -1px; }
 
@@ -4121,7 +4040,7 @@ tbody.collapse.show {
   .list-group-item.disabled, .list-group-item:disabled {
     color: #868e96;
     background-color: #fff; }
-  .list-group-item.active, .section.services .wrap .content .service ul li a.list-group-item.active {
+  .list-group-item.active {
     z-index: 2;
     color: #fff;
     background-color: #007bff;
@@ -4151,7 +4070,7 @@ button.list-group-item-primary {
   button.list-group-item-primary:hover {
     color: #004085;
     background-color: #9fcdff; }
-  a.list-group-item-primary.active, .section.services .wrap .content .service ul li a.list-group-item-primary.active,
+  a.list-group-item-primary.active,
   button.list-group-item-primary.active {
     color: #fff;
     background-color: #004085;
@@ -4169,7 +4088,7 @@ button.list-group-item-secondary {
   button.list-group-item-secondary:hover {
     color: #464a4e;
     background-color: #cfd2d6; }
-  a.list-group-item-secondary.active, .section.services .wrap .content .service ul li a.list-group-item-secondary.active,
+  a.list-group-item-secondary.active,
   button.list-group-item-secondary.active {
     color: #fff;
     background-color: #464a4e;
@@ -4187,7 +4106,7 @@ button.list-group-item-success {
   button.list-group-item-success:hover {
     color: #155724;
     background-color: #b1dfbb; }
-  a.list-group-item-success.active, .section.services .wrap .content .service ul li a.list-group-item-success.active,
+  a.list-group-item-success.active,
   button.list-group-item-success.active {
     color: #fff;
     background-color: #155724;
@@ -4205,7 +4124,7 @@ button.list-group-item-info {
   button.list-group-item-info:hover {
     color: #0c5460;
     background-color: #abdde5; }
-  a.list-group-item-info.active, .section.services .wrap .content .service ul li a.list-group-item-info.active,
+  a.list-group-item-info.active,
   button.list-group-item-info.active {
     color: #fff;
     background-color: #0c5460;
@@ -4223,7 +4142,7 @@ button.list-group-item-warning {
   button.list-group-item-warning:hover {
     color: #856404;
     background-color: #ffe8a1; }
-  a.list-group-item-warning.active, .section.services .wrap .content .service ul li a.list-group-item-warning.active,
+  a.list-group-item-warning.active,
   button.list-group-item-warning.active {
     color: #fff;
     background-color: #856404;
@@ -4241,7 +4160,7 @@ button.list-group-item-danger {
   button.list-group-item-danger:hover {
     color: #721c24;
     background-color: #f1b0b7; }
-  a.list-group-item-danger.active, .section.services .wrap .content .service ul li a.list-group-item-danger.active,
+  a.list-group-item-danger.active,
   button.list-group-item-danger.active {
     color: #fff;
     background-color: #721c24;
@@ -4259,7 +4178,7 @@ button.list-group-item-light {
   button.list-group-item-light:hover {
     color: #818182;
     background-color: #ececf6; }
-  a.list-group-item-light.active, .section.services .wrap .content .service ul li a.list-group-item-light.active,
+  a.list-group-item-light.active,
   button.list-group-item-light.active {
     color: #fff;
     background-color: #818182;
@@ -4277,7 +4196,7 @@ button.list-group-item-dark {
   button.list-group-item-dark:hover {
     color: #1b1e21;
     background-color: #b9bbbe; }
-  a.list-group-item-dark.active, .section.services .wrap .content .service ul li a.list-group-item-dark.active,
+  a.list-group-item-dark.active,
   button.list-group-item-dark.active {
     color: #fff;
     background-color: #1b1e21;
@@ -4676,7 +4595,7 @@ button.close {
   -webkit-perspective: 1000px;
           perspective: 1000px; }
 
-.carousel-item.active, .section.services .wrap .content .service ul li a.carousel-item.active,
+.carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
   display: block; }
@@ -4698,28 +4617,24 @@ button.close {
               transform: translate3d(0, 0, 0); } }
 
 .carousel-item-next,
-.active.carousel-item-right,
-.section.services .wrap .content .service ul li a.carousel-item-right.active {
+.active.carousel-item-right {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
           transform: translateX(100%); }
   @supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
     .carousel-item-next,
-    .active.carousel-item-right,
-    .section.services .wrap .content .service ul li a.carousel-item-right.active {
+    .active.carousel-item-right {
       -webkit-transform: translate3d(100%, 0, 0);
               transform: translate3d(100%, 0, 0); } }
 
 .carousel-item-prev,
-.active.carousel-item-left,
-.section.services .wrap .content .service ul li a.carousel-item-left.active {
+.active.carousel-item-left {
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
           transform: translateX(-100%); }
   @supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
     .carousel-item-prev,
-    .active.carousel-item-left,
-    .section.services .wrap .content .service ul li a.carousel-item-left.active {
+    .active.carousel-item-left {
       -webkit-transform: translate3d(-100%, 0, 0);
               transform: translate3d(-100%, 0, 0); } }
 
@@ -4819,7 +4734,7 @@ button.close {
       width: 100%;
       height: 10px;
       content: ""; }
-  .carousel-indicators .active, .carousel-indicators .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .carousel-indicators a.active {
+  .carousel-indicators .active {
     background-color: #fff; }
 
 .carousel-caption {
@@ -4924,7 +4839,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .border-left-0 {
   border-left: 0 !important; }
 
-.border-primary {
+.border-primary, .section.services .wrap .content .card-columns .card {
   border-color: #007bff !important; }
 
 .border-secondary {
@@ -4984,7 +4899,7 @@ a.bg-dark:focus, a.bg-dark:hover {
           border-radius: 50%; }
 
 .rounded-0, header.header-primary .content .searchbox form .input-group input,
-header.header-primary .content .searchbox form .input-group button, .section.services .wrap .content .service ul li a, .slider-main .owl-item .item-container .slider-content .btn {
+header.header-primary .content .searchbox form .input-group button, .slider-main .owl-item .item-container .slider-content .btn {
   -webkit-border-radius: 0;
           border-radius: 0; }
 
@@ -5011,7 +4926,7 @@ header.header-primary .content .searchbox form .input-group button, .section.ser
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex {
+.d-flex, nav.navbar-primary .navbar-nav {
   display: -webkit-box !important;
   display: -webkit-flex !important;
   display: -ms-flexbox !important;
@@ -5175,7 +5090,7 @@ header.header-primary .content .searchbox form .input-group button, .section.ser
 .embed-responsive-1by1::before {
   padding-top: 100%; }
 
-.flex-row {
+.flex-row, nav.navbar-primary .navbar-nav {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
   -webkit-flex-direction: row !important;
@@ -5203,7 +5118,7 @@ header.header-primary .content .searchbox form .input-group button, .section.ser
       -ms-flex-direction: column-reverse !important;
           flex-direction: column-reverse !important; }
 
-.flex-wrap {
+.flex-wrap, nav.navbar-primary .navbar-nav {
   -webkit-flex-wrap: wrap !important;
       -ms-flex-wrap: wrap !important;
           flex-wrap: wrap !important; }
@@ -5230,7 +5145,7 @@ header.header-primary .content .searchbox form .input-group button, .section.ser
       -ms-flex-pack: end !important;
           justify-content: flex-end !important; }
 
-.justify-content-center, .section.services .wrap .content .service ul {
+.justify-content-center {
   -webkit-box-pack: center !important;
   -webkit-justify-content: center !important;
       -ms-flex-pack: center !important;
@@ -6075,7 +5990,7 @@ header.header-primary .content .searchbox form .input-group button, .section.ser
 .mx-3 {
   margin-right: 1rem !important; }
 
-.mb-3,
+.mb-3, .section.services .wrap .content .card-columns .card,
 .my-3 {
   margin-bottom: 1rem !important; }
 
@@ -7008,7 +6923,7 @@ header.header-primary .content .searchbox form .input-group button, .section.ser
 .text-right {
   text-align: right !important; }
 
-.text-center {
+.text-center, .section.services .wrap .content .card-columns .card {
   text-align: center !important; }
 
 @media (min-width: 576px) {
@@ -12099,7 +12014,7 @@ a.text-dark:focus, a.text-dark:hover {
       transition: opacity 200ms ease;
       -webkit-border-radius: 30px;
               border-radius: 30px; }
-    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .section.services .wrap .content .service ul li a.owl-dot.active span, .section.services .wrap .content .service ul li .owl-theme .owl-dots a.owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: #869791; }
 
 /*
@@ -12149,7 +12064,7 @@ a.text-dark:focus, a.text-dark:hover {
       transition: opacity 200ms ease;
       -webkit-border-radius: 30px;
               border-radius: 30px; }
-    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .section.services .wrap .content .service ul li a.owl-dot.active span, .section.services .wrap .content .service ul li .owl-theme .owl-dots a.owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: #869791; }
 
 table.dataTable {
@@ -12339,13 +12254,13 @@ table.table-bordered.dataTable tbody td, table.dataTable.table-all tbody td, .da
 div.dataTables_scrollHead table.table-bordered, div.dataTables_scrollHead table.table-all, div.dataTables_scrollHead .dataTables_wrapper table, .dataTables_wrapper div.dataTables_scrollHead table {
   border-bottom-width: 0; }
 
-div.table-responsive > div.dataTables_wrapper > div.row, .section.newsfeed .events div.table-responsive > div.dataTables_wrapper > div.wrapper, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container, .wrap div.table-responsive > div.dataTables_wrapper > div.content {
+div.table-responsive > div.dataTables_wrapper > div.row, .section.newsfeed .sidebar div.table-responsive > div.dataTables_wrapper > div.wrapper, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container, .wrap div.table-responsive > div.dataTables_wrapper > div.content {
   margin: 0; }
 
-div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:first-child, .section.newsfeed .events div.table-responsive > div.dataTables_wrapper > div.wrapper > div[class^="col-"]:first-child, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container > div[class^="col-"]:first-child, .wrap div.table-responsive > div.dataTables_wrapper > div.content > div[class^="col-"]:first-child {
+div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:first-child, .section.newsfeed .sidebar div.table-responsive > div.dataTables_wrapper > div.wrapper > div[class^="col-"]:first-child, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container > div[class^="col-"]:first-child, .wrap div.table-responsive > div.dataTables_wrapper > div.content > div[class^="col-"]:first-child {
   padding-left: 0; }
 
-div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child, .section.newsfeed .events div.table-responsive > div.dataTables_wrapper > div.wrapper > div[class^="col-"]:last-child, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container > div[class^="col-"]:last-child, .wrap div.table-responsive > div.dataTables_wrapper > div.content > div[class^="col-"]:last-child {
+div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child, .section.newsfeed .sidebar div.table-responsive > div.dataTables_wrapper > div.wrapper > div[class^="col-"]:last-child, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container > div[class^="col-"]:last-child, .wrap div.table-responsive > div.dataTables_wrapper > div.content > div[class^="col-"]:last-child {
   padding-right: 0; }
 
 header.header-primary {
@@ -12382,7 +12297,12 @@ header.header-primary {
               -ms-flex-pack: center !important;
                   justify-content: center !important; } }
       header.header-primary .content .contact nav a {
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-family: "latobold", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+        font-size: 80%; }
 
 nav {
   font-family: "latolight", sans-serif;
@@ -12391,25 +12311,31 @@ nav {
   font-smoothing: antialiased; }
   nav.navbar-primary {
     z-index: 1000;
-    background-color: #ee9e1d !important;
+    background-color: #ffc721 !important;
     padding: 0 1rem; }
-    nav.navbar-primary .navbar-nav li a {
-      text-transform: uppercase; }
-      nav.navbar-primary .navbar-nav li a:hover {
-        color: #495057;
-        background-color: #f0a834; }
-    nav.navbar-primary .navbar-nav li.active a {
-      color: #343a40;
-      background-color: #f1b24c; }
+    nav.navbar-primary .navbar-nav li {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 0 auto;
+          -ms-flex: 1 0 auto;
+              flex: 1 0 auto; }
+      nav.navbar-primary .navbar-nav li a {
+        color: #fff;
+        text-transform: uppercase; }
+        nav.navbar-primary .navbar-nav li a:hover {
+          color: #fff;
+          background-color: #ffce3a; }
+      nav.navbar-primary .navbar-nav li.active a {
+        color: #fff;
+        background-color: #ffd454; }
     nav.navbar-primary.fixed-top {
       position: fixed;
       top: 0;
       right: 0;
       left: 0;
       z-index: 1030;
-      background-color: #a92d30 !important; }
+      background-color: #ffc107 !important; }
       nav.navbar-primary.fixed-top .navbar-nav li a {
-        color: #e6a2a4; }
+        color: #ffeeba; }
         nav.navbar-primary.fixed-top .navbar-nav li a:hover {
           color: white; }
       nav.navbar-primary.fixed-top .navbar-nav li.active a {
@@ -12499,7 +12425,7 @@ nav {
     padding-right: 0.5rem !important; }
     .dropdown-menu a:hover {
       color: #a92d30 !important; }
-    .dropdown-menu a.active, .dropdown-menu .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .dropdown-menu a.active {
+    .dropdown-menu a.active {
       color: #fff !important;
       background-color: #a92d30; }
 
@@ -12555,71 +12481,64 @@ nav {
         margin-bottom: 1rem; } }
 
 .section {
-  padding: 4rem 0 3rem; }
-  @media (max-width: 575px) {
-    .section {
-      padding: 2rem 0 1rem; } }
+  padding: 2rem 0 1rem; }
   @media (max-width: 575px) {
     .section.newsfeed .news .wrapper .page-header {
       padding-left: 0;
       padding-right: 0; } }
-  .section.newsfeed .events .wrapper .widget .entry-content {
-    background-color: #1f4e79;
-    padding: 1.25rem; }
-    .section.newsfeed .events .wrapper .widget .entry-content strong {
-      position: relative;
-      display: block;
-      font-weight: normal;
-      color: #fff;
-      font-size: 3rem; }
-    .section.newsfeed .events .wrapper .widget .entry-content time {
-      color: #fff;
-      font-size: 80%;
-      line-height: 1; }
-    .section.newsfeed .events .wrapper .widget .entry-content h4 {
-      font-size: 1.15rem; }
-      @media (max-width: 575px) {
-        .section.newsfeed .events .wrapper .widget .entry-content h4 {
-          font-size: 1rem; } }
-      .section.newsfeed .events .wrapper .widget .entry-content h4 a {
-        color: #fff; }
+  .section.newsfeed .news .wrapper .page-header h2 {
+    background-color: tomato; }
+  .section.newsfeed .news .wrapper article a {
+    color: tomato; }
+    .section.newsfeed .news .wrapper article a:hover {
+      color: #ff4d2e; }
+  .section.newsfeed .sidebar .wrapper .page-header h2 {
+    background-color: #495057; }
+  .section.newsfeed .sidebar .wrapper .widget {
+    margin-bottom: 1.5rem; }
+    .section.newsfeed .sidebar .wrapper .widget .entry-content {
+      background-color: #495057;
+      padding: 1.25rem; }
+      .section.newsfeed .sidebar .wrapper .widget .entry-content strong {
+        position: relative;
+        display: block;
+        font-weight: normal;
+        color: #fff;
+        font-size: 3rem; }
+      .section.newsfeed .sidebar .wrapper .widget .entry-content time {
+        color: #fff;
+        font-size: 80%;
+        line-height: 1; }
+      .section.newsfeed .sidebar .wrapper .widget .entry-content h4 {
+        font-size: 1.15rem; }
+        @media (max-width: 575px) {
+          .section.newsfeed .sidebar .wrapper .widget .entry-content h4 {
+            font-size: 1rem; } }
+        .section.newsfeed .sidebar .wrapper .widget .entry-content h4 a {
+          color: #fff; }
+  .section.newsfeed .sidebar .wrapper.event .page-header h2 {
+    background-color: #28a745; }
+  .section.newsfeed .sidebar .wrapper.event .entry-content {
+    background-color: #28a745; }
   .section.services {
     background-color: #d3eeff; }
     .section.services .wrap .content .page-header {
       text-align: center;
       margin-bottom: 0.25rem; }
       .section.services .wrap .content .page-header h2 {
-        color: #1f4e79; }
-    .section.services .wrap .content .service ul {
-      margin-bottom: 2rem; }
-    .section.services .wrap .content .service .tab-content .owl-carousel .item article {
-      background-color: transparent; }
-      .section.services .wrap .content .service .tab-content .owl-carousel .item article .entry-content {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(255, 255, 255, 0.85);
-        padding: 1.25rem; }
-        .section.services .wrap .content .service .tab-content .owl-carousel .item article .entry-content h4 a {
-          font-size: 1.15rem;
-          margin-bottom: 0.15rem;
-          color: #1f4e79; }
-          @media (max-width: 575px) {
-            .section.services .wrap .content .service .tab-content .owl-carousel .item article .entry-content h4 a {
-              font-size: 1rem; } }
-          .section.services .wrap .content .service .tab-content .owl-carousel .item article .entry-content h4 a:hover {
-            color: #0f273c; }
-        .section.services .wrap .content .service .tab-content .owl-carousel .item article .entry-content p {
-          padding-top: 0.25rem;
-          display: none;
-          color: #495057;
-          font-size: 90%; }
-      .section.services .wrap .content .service .tab-content .owl-carousel .item article:hover .entry-content {
-        top: 0;
-        background-color: rgba(255, 255, 255, 0.7); }
-        .section.services .wrap .content .service .tab-content .owl-carousel .item article:hover .entry-content p {
-          display: block; }
+        color: #fff;
+        background-color: #1f4e79; }
+    .section.services .wrap .content .card-columns {
+      padding: 0 15px; }
+      .section.services .wrap .content .card-columns .card {
+        background-color: transparent; }
+        .section.services .wrap .content .card-columns .card a i {
+          font-size: 2rem;
+          margin-top: 2rem; }
+        .section.services .wrap .content .card-columns .card:hover {
+          background-color: #1f4e79; }
+          .section.services .wrap .content .card-columns .card:hover a {
+            color: white; }
 
 .map {
   height: 225px; }
@@ -12644,7 +12563,7 @@ nav {
           font-size: 2rem; } }
     .slider-main .owl-item .item-container .slider-content p {
       font-size: 1rem; }
-    .slider-main .owl-item .item-container .slider-content .btn, .slider-main .owl-item .item-container .slider-content .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .slider-main .owl-item .item-container .slider-content a {
+    .slider-main .owl-item .item-container .slider-content .btn {
       font-family: "latobold", sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -12657,7 +12576,7 @@ nav {
         display: none; } }
     .slider-main .owl-item .item-container .slider-image img {
       width: auto; }
-  .slider-main .owl-item.active .item-container .slider-content, .slider-main .section.services .wrap .content .service ul li a.owl-item.active .item-container .slider-content, .section.services .wrap .content .service ul li .slider-main a.owl-item.active .item-container .slider-content {
+  .slider-main .owl-item.active .item-container .slider-content {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
     -webkit-animation-iteration-count: 1;
@@ -12672,7 +12591,7 @@ nav {
     animation-fill-mode: both;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
-  .slider-main .owl-item.active .item-container .slider-image, .slider-main .section.services .wrap .content .service ul li a.owl-item.active .item-container .slider-image, .section.services .wrap .content .service ul li .slider-main a.owl-item.active .item-container .slider-image {
+  .slider-main .owl-item.active .item-container .slider-image {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
     -webkit-animation-iteration-count: 1;
@@ -12687,16 +12606,20 @@ nav {
     animation-fill-mode: both;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
-  .slider-main .owl-dots .owl-dot span {
-    width: 4rem;
-    height: 0.35rem;
-    background: #e6a2a4;
-    -webkit-border-radius: 0;
-            border-radius: 0; }
-  .slider-main .owl-dots .owl-dot:hover span {
-    background: #d66669; }
-  .slider-main .owl-dots .owl-dot.active span, .slider-main .owl-dots .section.services .wrap .content .service ul li a.owl-dot.active span, .section.services .wrap .content .service ul li .slider-main .owl-dots a.owl-dot.active span {
-    background: #a92d30; }
+  .slider-main .owl-dots {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0; }
+    .slider-main .owl-dots .owl-dot span {
+      width: .85rem;
+      height: .85rem;
+      border: 2px solid white;
+      background: #ffeeba; }
+    .slider-main .owl-dots .owl-dot:hover span {
+      background: #ffdb6d; }
+    .slider-main .owl-dots .owl-dot.active span {
+      background: #ffc107; }
 
 .page article header {
   margin: 1rem 0; }
@@ -12889,8 +12812,9 @@ aside {
 
 * {
   -webkit-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease; }
+  -webkit-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease; }
 
 body {
   font-family: "robotolight", sans-serif;
@@ -12908,6 +12832,17 @@ a {
   a:hover {
     color: #0f273c;
     text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "latobold", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased; }
 
 .ocultar {
   -webkit-animation-name: fadeOutDown;
@@ -12987,18 +12922,17 @@ ol.list-group li {
 .section .page-header {
   padding-bottom: 1.25rem; }
   .section .page-header h2 {
-    font-family: "latolight", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-smoothing: antialiased;
-    font-size: 2.25rem; }
+    color: #f8f9fa;
+    padding: 7px 15px;
+    background-color: #adb5bd;
+    font-size: 1.25rem; }
     @media (max-width: 575px) {
       .section .page-header h2 {
-        font-size: 1.5rem; } }
+        font-size: 1rem; } }
     .section .page-header h2 a {
-      color: #adb5bd; }
+      color: #f8f9fa; }
       .section .page-header h2 a:hover {
-        color: #495057; }
+        color: #fff; }
 
 .table-all thead tr th, .dataTables_wrapper table thead tr th,
 .table-all tfoot tr th, .dataTables_wrapper table tfoot tr th {
@@ -13026,9 +12960,9 @@ ol.list-group li {
   .table-all tbody tr td p:last-child, .dataTables_wrapper table tbody tr td p:last-child {
     margin-bottom: 0; }
 
-.table-all tbody tr td.text-center a, .dataTables_wrapper table tbody tr td.text-center a {
+.table-all tbody tr td.text-center a, .dataTables_wrapper table tbody tr td.text-center a, .table-all tbody tr .section.services .wrap .content .card-columns td.card a, .section.services .wrap .content .card-columns .table-all tbody tr td.card a, .dataTables_wrapper table tbody tr .section.services .wrap .content .card-columns td.card a, .section.services .wrap .content .card-columns .dataTables_wrapper table tbody tr td.card a {
   color: #a92d30; }
-  .table-all tbody tr td.text-center a:hover, .dataTables_wrapper table tbody tr td.text-center a:hover {
+  .table-all tbody tr td.text-center a:hover, .dataTables_wrapper table tbody tr td.text-center a:hover, .table-all tbody tr .section.services .wrap .content .card-columns td.card a:hover, .section.services .wrap .content .card-columns .table-all tbody tr td.card a:hover, .dataTables_wrapper table tbody tr .section.services .wrap .content .card-columns td.card a:hover, .section.services .wrap .content .card-columns .dataTables_wrapper table tbody tr td.card a:hover {
     color: #bd3236; }
 
 .table-all tbody tr td ul li, .dataTables_wrapper table tbody tr td ul li {
@@ -13047,16 +12981,12 @@ ol.list-group li {
   margin-bottom: 20px; }
 
 .owl-dots .owl-dot span {
-  width: 4rem;
-  height: 0.35rem;
-  background: white;
-  -webkit-border-radius: 0;
-          border-radius: 0; }
+  background: white; }
 
 .owl-dots .owl-dot:hover span {
   background: #e6e8ea; }
 
-.owl-dots .owl-dot.active span, .owl-dots .section.services .wrap .content .service ul li a.owl-dot.active span, .section.services .wrap .content .service ul li .owl-dots a.owl-dot.active span {
+.owl-dots .owl-dot.active span {
   background: #adb5bd; }
 
 main p {
@@ -13094,18 +13024,20 @@ aside a {
 article {
   border: 0 none;
   -webkit-border-radius: 0;
-          border-radius: 0; }
-  article .entry-content {
-    padding: 0.5rem 0 1.25rem; }
-    article .entry-content h4 {
-      font-size: 1.15rem;
-      margin-bottom: 0.15rem; }
-      article .entry-content h4 a {
-        color: #1f4e79; }
-        article .entry-content h4 a:hover {
-          color: #2f75b6; }
-      @media (max-width: 575px) {
-        article .entry-content h4 {
-          font-size: 1rem; } }
-    article .entry-content time {
-      font-size: 80%; }
+          border-radius: 0;
+  margin-bottom: 1.5rem; }
+  article img {
+    padding-right: 1rem;
+    float: left; }
+  article .entry-content h4 {
+    font-size: 1.15rem;
+    margin-bottom: 0.15rem; }
+    article .entry-content h4 a {
+      color: #1f4e79; }
+      article .entry-content h4 a:hover {
+        color: #2f75b6; }
+    @media (max-width: 575px) {
+      article .entry-content h4 {
+        font-size: 1rem; } }
+  article .entry-content time {
+    font-size: 80%; }

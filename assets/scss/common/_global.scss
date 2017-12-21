@@ -32,7 +32,7 @@
 
 * {
     -webkit-transition: all .5s ease;
-    transition: all .5s ease;
+    transition: all .1s ease;
 }
 
 body {
@@ -53,6 +53,16 @@ a {
         color: $link-hover-color;
         text-decoration: none;
     }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include font-family('lato',
+    'bold');
 }
 
 .ocultar {
@@ -94,16 +104,17 @@ ol.list-group {
     .page-header {
         padding-bottom: 1.25rem;
         h2 {
-            @include font-family('lato',
-            'light');
+            color: $gray-100;
+            padding: 7px 15px;
+            background-color: $gray-500;
             @include media-breakpoint-down(xs) {
-                font-size: 1.5rem;
+                font-size: 1rem;
             }
-            font-size: 2.25rem;
+            font-size: 1.25rem;
             a {
-                color: $gray-500;
+                color: $gray-100;
                 &:hover {
-                    color: $gray-700;
+                    color: $white;
                 }
             }
         }
@@ -191,10 +202,7 @@ ol.list-group {
 .owl-dots {
     .owl-dot {
         span {
-            width: 4rem;
-            height: 0.35rem;
             background: lighten($gray-500, 35%);
-            border-radius: 0;
         }
         &:hover {
             span {
@@ -256,17 +264,17 @@ aside {
 }
 
 article {
-    @extend .card;
+    @extend .col-sm-12;
     border: 0 none;
     border-radius: 0;
+    margin-bottom: 1.5rem;
     img {
         @extend .img-fluid;
+        padding-right: 1rem;
+        float: left;
     }
     .entry-content {
-        @extend .card-body;
-        padding: 0.5rem 0 1.25rem;
         h4 {
-            @extend .card-title;
             a {
                 color: $blue;
                 &:hover {
@@ -280,7 +288,6 @@ article {
             margin-bottom: 0.15rem;
         }
         time {
-            @extend .card-text;
             @extend .text-muted;
             font-size: 80%;
         }

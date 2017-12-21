@@ -9,19 +9,24 @@ nav {
         background-color: lighten($orange, 5%) !important;
         padding: 0 1rem;
         .navbar-nav {
+            @extend .d-flex;
+            @extend .flex-row;
+            @extend .flex-wrap;
             li {
                 @extend .nav-item;
+                flex: 1 0 auto;
                 a {
                     @extend .nav-link;
+                    color: $white;
                     text-transform: uppercase;
                     &:hover {
-                        color: $gray-700;
+                        color: $white;
                         background-color: lighten($orange, 10%);
                     }
                 }
                 &.active {
                     a {
-                        color: $gray-800;
+                        color: $white;
                         background-color: lighten($orange, 15%);
                     }
                 }
@@ -33,13 +38,13 @@ nav {
             right: 0;
             left: 0;
             z-index: 1030;
-            background-color: $red !important;
+            background-color: $orange !important;
             .navbar-nav {
                 li {
                     a {
-                        color: lighten($red, 35%);
+                        color: lighten($orange, 35%);
                         &:hover {
-                            color: lighten($red, 75%);
+                            color: lighten($orange, 75%);
                         }
                     }
                     &.active {
