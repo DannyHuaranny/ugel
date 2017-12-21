@@ -30,6 +30,15 @@ nav {
                         background-color: lighten($orange, 15%);
                     }
                 }
+                &.dropdown {
+                    .dropdown-menu {
+                        a {
+                            &:hover {
+                                background-color: lighten($orange, 35%) !important;
+                            }
+                        }
+                    }
+                }
             }
         }
         &.fixed-top {

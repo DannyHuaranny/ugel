@@ -12327,6 +12327,8 @@ nav {
       nav.navbar-primary .navbar-nav li.active a {
         color: #fff;
         background-color: #ffd454; }
+      nav.navbar-primary .navbar-nav li.dropdown .dropdown-menu a:hover {
+        background-color: #ffeeba !important; }
     nav.navbar-primary.fixed-top {
       position: fixed;
       top: 0;
