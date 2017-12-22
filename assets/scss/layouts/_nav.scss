@@ -6,7 +6,7 @@ nav {
         @extend .navbar-light;
         @extend .bg-light;
         z-index: $zindex-dropdown;
-        background-color: lighten($orange, 5%) !important;
+        background-color: darken($orange, 5%) !important;
         padding: 0 1rem;
         .navbar-nav {
             @extend .d-flex;
@@ -21,7 +21,7 @@ nav {
                     text-transform: uppercase;
                     &:hover {
                         color: $white;
-                        background-color: lighten($orange, 10%);
+                        background-color: lighten($orange, 5%);
                     }
                 }
                 &.active {
@@ -34,6 +34,10 @@ nav {
                     .dropdown-menu {
                         a {
                             &:hover {
+                                background-color: lighten($orange, 35%) !important;
+                            }
+                            &.active {
+                                color: $red !important;
                                 background-color: lighten($orange, 35%) !important;
                             }
                         }
@@ -63,6 +67,15 @@ nav {
                     }
                 }
             }
+        }
+    }
+    &#breadcrumb {
+        color: $white;
+        background-color: lighten($orange, 15%);
+        ol {
+            padding: 0.15rem 1rem;
+            background-color: transparent;
+            margin-bottom: 3rem;
         }
     }
     &.social-nav {

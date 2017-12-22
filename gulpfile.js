@@ -1,8 +1,8 @@
-var gulp        = require('gulp');
-var concat        = require('gulp-concat');
-var rename        = require('gulp-rename');
-var sass        = require('gulp-sass');
-var prefix        = require('gulp-autoprefixer');
+var gulp = require('gulp');
+var concat = require('gulp-concat');
+var rename = require('gulp-rename');
+var sass = require('gulp-sass');
+var prefix = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 
 // Static Server + watching scss/html files
@@ -29,13 +29,14 @@ gulp.task('styles', function() {
 // Compile js into dist folder
 gulp.task('scripts-required', function() {
     return gulp.src([
-            './assets/js/jquery.js', 
-            './assets/js/popper.js', 
-            './assets/js/bootstrap.js', 
+            './assets/js/jquery.js',
+            './assets/js/popper.js',
+            './assets/js/bootstrap.js',
             './assets/js/owl.carousel.js',
             './assets/js/jquery.dataTables.js',
             './assets/js/jquery.dataTables.bootstrap4.js',
-            './assets/js/jquery.viewportchecker.js'
+            './assets/js/jquery.viewportchecker.js',
+            './assets/js/lightbox.js'
         ])
         .pipe(concat('concat-required.js'))
         .pipe(rename('required.js'))
@@ -53,4 +54,4 @@ gulp.task('scripts-app', function() {
 });
 
 
-gulp.task('default', ['styles','scripts-required','scripts-app','serve']);
+gulp.task('default', ['styles', 'scripts-required', 'scripts-app', 'serve']);

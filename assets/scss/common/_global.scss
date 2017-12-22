@@ -238,6 +238,39 @@ aside {
     }
 }
 
+picture {
+    display: block;
+    position: relative;
+    height: 200px;
+    background-color: $gray-300;
+    a {
+        display: block;
+        text-align: center;
+        line-height: 200px;
+        color: white;
+        font-size: 2rem;
+    }
+}
+
+.page {
+    .page-header {
+        padding-bottom: 1.25rem;
+        margin-bottom: 2rem;
+        border-bottom: .05rem solid #eee;
+        h1 {
+            @include font-family('lato',
+            'light');
+            font-size: 3.5rem;
+        }
+    }
+}
+
+.card {
+    img {
+        @extend .img-fluid;
+    }
+}
+
 .top {
     position: fixed;
     bottom: 15px;
